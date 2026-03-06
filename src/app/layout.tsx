@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP, Noto_Sans_SC } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({
@@ -8,17 +8,11 @@ const notoSansJP = Noto_Sans_JP({
   weight: ["300", "400", "500", "700"],
 });
 
-const notoSansSC = Noto_Sans_SC({
-  variable: "--font-noto-sc",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-});
-
 export const metadata: Metadata = {
-  title: "常久株式会社 | 宠物用品专业经销商",
+  title: "常久株式会社 | ペット用品専門卸売",
   description:
-    "常久株式会社专注于宠物用品进口和销售，专业从事猫砂及宠物用品经销批发的综合服务商。主营豆腐猫砂、膨润土猫砂、混合猫砂等主流产品。",
-  keywords: "猫砂,宠物用品,批发,经销商,豆腐猫砂,膨润土猫砂,OEM,ODM",
+    "常久株式会社はペット用品の輸入・販売を専門とする総合卸売商社です。豆腐猫砂、ベントナイト猫砂、混合猫砂など各種猫砂を取り扱っております。",
+  keywords: "猫砂,ペット用品,卸売,代理店,豆腐猫砂,ベントナイト猫砂,OEM,ODM",
 };
 
 export default function RootLayout({
@@ -27,10 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className="scroll-smooth">
-      <body
-        className={`${notoSansJP.variable} ${notoSansSC.variable} antialiased`}
-      >
+    <html lang="ja" className="scroll-smooth">
+      <body className={`${notoSansJP.variable} antialiased`}>
         {children}
       </body>
     </html>
