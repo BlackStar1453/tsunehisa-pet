@@ -356,22 +356,22 @@ export default function Home() {
           <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
             ペットショップ経営者様、EC事業者様、量販店バイヤー様、地域代理店様など、あらゆるお客様に高品質な猫砂と確かなサービスをご提供いたします。お取引のご相談を心よりお待ちしております。
           </p>
-          <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+          <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">📞</div>
-              <div className="font-semibold mb-1">お電話</div>
-              <div className="text-white/70 text-sm">お気軽にお電話ください</div>
+              <div className="text-3xl mb-3">📱</div>
+              <div className="font-semibold mb-1">携帯電話</div>
+              <a href="tel:090-6885-1501" className="text-white/90 text-sm hover:text-white transition-colors">090-6885-1501</a>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <div className="text-3xl mb-3">✉️</div>
               <div className="font-semibold mb-1">メール</div>
-              <div className="text-white/70 text-sm">随時ご返信いたします</div>
+              <a href="mailto:383241293@qq.com" className="text-white/90 text-sm hover:text-white transition-colors">383241293@qq.com</a>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">🏢</div>
-              <div className="font-semibold mb-1">ご来社</div>
-              <div className="text-white/70 text-sm">現地見学も歓迎です</div>
-            </div>
+          </div>
+          <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 max-w-3xl mx-auto">
+            <div className="text-3xl mb-3">🏢</div>
+            <div className="font-semibold mb-1">所在地</div>
+            <div className="text-white/90 text-sm">〒543-0043 大阪府大阪市天王寺区寺田町2丁目6番10号 エステイ寺田町むつみ605号</div>
           </div>
         </div>
       </section>
