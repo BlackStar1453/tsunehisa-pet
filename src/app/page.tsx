@@ -4,13 +4,13 @@ const products = [
   {
     name: "おから猫砂",
     desc: "えんどう豆やトウモロコシなどの植物繊維を原料に使用。天然素材で低粉塵、素早く固まりトイレに流せます。猫ちゃんの呼吸器にもやさしい設計です。",
-    image: "/images/product-1.jpg",
+    image: "/images/tofu-litter.jpg",
     tags: ["天然素材", "トイレに流せる", "低粉塵"],
   },
   {
     name: "ベントナイト猫砂",
     desc: "天然鉱物を原料に、優れた吸水力としっかりした固まりを実現。消臭効果が高くコストパフォーマンスに優れ、猫ちゃんの受け入れも良好です。",
-    image: "/images/product-3.jpg",
+    image: "/images/bentonite-litter.jpg",
     tags: ["高コスパ", "しっかり固まる", "消臭力"],
   },
   {
@@ -22,14 +22,14 @@ const products = [
   {
     name: "シリカゲル猫砂",
     desc: "シリカゲル粒子素材で常にサラサラ。吸着による消臭方式で長持ち、飛び散りにくく清潔な環境を保てます。",
-    image: "/images/product-4.jpg",
+    image: "/images/crystal-litter.jpg",
     tags: ["サラサラ", "長持ち", "飛び散りにくい"],
   },
   {
-    name: "木質ペレット猫砂",
-    desc: "天然の松やキャッサバなどの植物由来素材を使用。環境にやさしく自然な香り、粉塵が極めて少なく敏感な猫ちゃんにも安心です。",
-    image: "/images/product-6.jpg",
-    tags: ["エコ素材", "自然な香り", "敏感肌対応"],
+    name: "キャッサバ猫砂",
+    desc: "キャッサバ由来の天然素材を使用。環境にやさしく粒子が細かい、粉塵が極めて少なく敏感な猫ちゃんにも安心です。",
+    image: "/images/cassava-litter.jpg",
+    tags: ["エコ素材", "細粒タイプ", "敏感肌対応"],
   },
 ];
 
