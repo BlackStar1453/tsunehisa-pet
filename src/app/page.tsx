@@ -365,7 +365,7 @@ export default function Home() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <div className="text-3xl mb-3">✉️</div>
               <div className="font-semibold mb-1">メール</div>
-              <a href="mailto:383241293@qq.com" className="text-white/90 text-sm hover:text-white transition-colors">383241293@qq.com</a>
+              <a href="mailto:changjunlong110@gmail.com" className="text-white/90 text-sm hover:text-white transition-colors">changjunlong110@gmail.com</a>
             </div>
           </div>
           <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 max-w-3xl mx-auto">
