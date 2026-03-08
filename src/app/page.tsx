@@ -16,7 +16,7 @@ const products = [
   {
     name: "ミックス猫砂",
     desc: "おから砂とベントナイト砂の長所を兼ね備えた人気商品。固まりが強く底付きしにくい、消臭力が高く粉塵も少ない、市場で最も売れ筋のタイプです。",
-    image: "/images/product-5.jpg",
+    image: "/images/mixed-litter.jpg",
     tags: ["売れ筋No.1", "W効果", "粉塵少"],
   },
   {
