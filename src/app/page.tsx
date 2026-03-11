@@ -358,6 +358,11 @@ export default function Home() {
           </p>
           <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+              <div className="text-3xl mb-3">📞</div>
+              <div className="font-semibold mb-1">固定電話</div>
+              <a href="tel:06-7860-2204" className="text-white/90 text-sm hover:text-white transition-colors">06-7860-2204</a>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <div className="text-3xl mb-3">📱</div>
               <div className="font-semibold mb-1">携帯電話</div>
               <a href="tel:090-6885-1501" className="text-white/90 text-sm hover:text-white transition-colors">090-6885-1501</a>
