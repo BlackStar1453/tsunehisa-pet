@@ -356,27 +356,42 @@ export default function Home() {
           <p className="text-white/80 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
             ペットショップ経営者様、EC事業者様、量販店バイヤー様、地域代理店様など、あらゆるお客様に高品質な猫砂と確かなサービスをご提供いたします。お取引のご相談を心よりお待ちしております。
           </p>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">📞</div>
-              <div className="font-semibold mb-1">固定電話</div>
-              <a href="tel:06-7860-2204" className="text-white/90 text-sm hover:text-white transition-colors">06-7860-2204</a>
+          <div className="max-w-4xl mx-auto">
+            {/* 電話・メール */}
+            <div className="grid sm:grid-cols-3 gap-4 sm:gap-5">
+              <a
+                href="tel:06-7860-2204"
+                className="group bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
+              >
+                <div className="text-2xl mb-2 opacity-80 group-hover:opacity-100 transition-opacity">📞</div>
+                <div className="text-xs text-white/60 uppercase tracking-wider mb-1">Landline</div>
+                <div className="font-semibold text-lg tracking-wide">06-7860-2204</div>
+              </a>
+              <a
+                href="tel:090-6885-1501"
+                className="group bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
+              >
+                <div className="text-2xl mb-2 opacity-80 group-hover:opacity-100 transition-opacity">📱</div>
+                <div className="text-xs text-white/60 uppercase tracking-wider mb-1">Mobile</div>
+                <div className="font-semibold text-lg tracking-wide">090-6885-1501</div>
+              </a>
+              <a
+                href="mailto:changjunlong110@gmail.com"
+                className="group bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
+              >
+                <div className="text-2xl mb-2 opacity-80 group-hover:opacity-100 transition-opacity">✉️</div>
+                <div className="text-xs text-white/60 uppercase tracking-wider mb-1">E-mail</div>
+                <div className="font-semibold text-sm sm:text-base break-all">changjunlong110@gmail.com</div>
+              </a>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">📱</div>
-              <div className="font-semibold mb-1">携帯電話</div>
-              <a href="tel:090-6885-1501" className="text-white/90 text-sm hover:text-white transition-colors">090-6885-1501</a>
+            {/* 所在地 */}
+            <div className="mt-5 bg-white/8 backdrop-blur-sm rounded-2xl px-6 py-5 border border-white/15 flex flex-col sm:flex-row items-center gap-3 sm:gap-5">
+              <div className="text-2xl opacity-80">🏢</div>
+              <div className="text-center sm:text-left">
+                <div className="text-xs text-white/60 uppercase tracking-wider mb-1">Address</div>
+                <div className="text-white/90 text-sm leading-relaxed">〒543-0043 大阪府大阪市天王寺区寺田町2丁目6番10号 エステイ寺田町むつみ605号</div>
+              </div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <div className="text-3xl mb-3">✉️</div>
-              <div className="font-semibold mb-1">メール</div>
-              <a href="mailto:changjunlong110@gmail.com" className="text-white/90 text-sm hover:text-white transition-colors">changjunlong110@gmail.com</a>
-            </div>
-          </div>
-          <div className="mt-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 max-w-3xl mx-auto">
-            <div className="text-3xl mb-3">🏢</div>
-            <div className="font-semibold mb-1">所在地</div>
-            <div className="text-white/90 text-sm">〒543-0043 大阪府大阪市天王寺区寺田町2丁目6番10号 エステイ寺田町むつみ605号</div>
           </div>
         </div>
       </section>
