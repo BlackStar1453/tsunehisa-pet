@@ -376,12 +376,12 @@ export default function Home() {
                 <div className="font-semibold text-lg tracking-wide">090-6885-1501</div>
               </a>
               <a
-                href="mailto:changjunlong110@gmail.com"
+                href="mailto:info@jokyu-pet.co.jp"
                 className="group bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300"
               >
                 <div className="text-2xl mb-2 opacity-80 group-hover:opacity-100 transition-opacity">✉️</div>
                 <div className="text-xs text-white/60 uppercase tracking-wider mb-1">E-mail</div>
-                <div className="font-semibold text-sm sm:text-base break-all">changjunlong110@gmail.com</div>
+                <div className="font-semibold text-sm sm:text-base break-all">info@jokyu-pet.co.jp</div>
               </a>
             </div>
             {/* 所在地 */}
